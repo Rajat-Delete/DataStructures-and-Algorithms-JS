@@ -1,4 +1,5 @@
-let x = null;
+const prompt = require('prompt-sync')({sigint : true});
+let x = prompt("Enter a Number:");
 
 if(x % 2 == 0){
     console.log("Number is Even");
@@ -7,3 +8,4 @@ if(x % 2 == 0){
 }else{
     console.log("Invalid Number");
 }
+
