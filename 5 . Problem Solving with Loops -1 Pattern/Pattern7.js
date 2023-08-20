@@ -88,7 +88,7 @@ function lowerhalf(n){
 
 }
 
-function PrintPattern{
+function PrintPattern(){
 upperhalf(9);
 middlehalf(9);
 lowerhalf(9);
