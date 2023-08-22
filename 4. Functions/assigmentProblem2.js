@@ -40,4 +40,11 @@ function addSum(num) {
     }
 }
 
+//good solution on leetcode
+function test(num){
+return 1 + (num-1)%9;
+};
+
+console.log(test(38));
+
 console.log(addSum(228));
