@@ -40,8 +40,8 @@ function bestTime(arr){
 
 //Optimised Approach
 function approach2(arr){
-    let profit = 0;
-    let curr_min = arr[0];
+    let profit = 0;//4
+    let curr_min = arr[0];//1
 
     for(let i=0;i<arr.length;i++){
         //should we sell today
